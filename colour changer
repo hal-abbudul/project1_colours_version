@@ -1,0 +1,23 @@
+//these are the variables width and height
+int W=800;
+int H=600;
+//to show the size
+void settings(){
+  size(W,H);
+} 
+//To show the four colours based on the mouse
+void draw(){
+  background(#817F7F);
+  if (mouseX>W/2)
+    if(mouseY>H/2){
+    background(#F53302);
+  }
+  if (mouseX<W/2)
+  if (mouseY>H/2){
+  background(#FEFF00);
+  }
+if(mouseX<W/2) 
+if(mouseY<H/2){
+  background(#0FFA2C);
+ }
+}
